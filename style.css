@@ -13,6 +13,10 @@ h1 {
     font-family: sans-serif, "Times New Roman", serif;
 }
 
+h2 {
+  font-family: font-family: 'Livvic', sans-serif;
+}
+
 #container{
     width: 95%;
     margin: 0 auto;
