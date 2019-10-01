@@ -4,6 +4,32 @@
     color: red;
 }*/
 
+#nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 599px) {
+#nav {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
+
+@@media (min-width: 799px) {
+	.item-1{
+		margin-right: auto;
+	}
+}
+
+
+
+
 p {
 	color: #0074D9;
     font-family: 'Open Sans', sans-serif;
@@ -58,10 +84,7 @@ img {
   width: 40%;
 }
 
-@media screen and (min-width: 599px){
 
-
-}
 
 body {
 	background-color: white
@@ -101,6 +124,7 @@ a:link, a:visited
 #nav a:hover, #nav a:active {
     background-color: #EBE89B;
 }
+
 
 .caption {
     color: #0074d9;
