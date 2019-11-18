@@ -28,7 +28,7 @@
 }
 
 .cards li {
-    background-color: #0074d9;
+    background-color: #A3AFC7;
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 5px;
@@ -76,12 +76,12 @@ body {
 }
 
 .header {
-  background-color: #999;
+  background-color: #D1E0FF;
 }
 
 
 p {
-	color: #0074D9;
+	color: #343840;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -162,7 +162,7 @@ a:link, a:visited
 #nav a:link, #nav a:visited {
 	  display:block;
     color: #ffffff;
-    background-color: #638bff;
+    background-color: #BCCAE6;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -172,12 +172,12 @@ a:link, a:visited
 
 
 #nav a:hover, #nav a:active {
-    background-color: #EBE89B;
+    background-color: #BCCAE6;
 }
 
 
 .caption {
-    color: #0074d9;
+    color: #343840;
     font-family: Georgia, "Times New Roman", serif;
     font-style: italic;
     font-size: 0.8em;
@@ -245,20 +245,20 @@ img {
 
 /*Hamburger menu styling*/
 body {
-  background-color: #F8ECC2;
+  background-color: #ffffff;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 nav ul li {
     display: block;
-    border-top: 1px #79896d solid;
+    border-top: 1px ##A3AFC7 solid;
 		list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 nav a {
-    color: #f8ecc2;
+    color: ##A3AFC7;
     display: block;
     text-decoration: none;
     padding: 20px 30px;
@@ -267,7 +267,7 @@ nav a {
 header {
     display: flex;
     flex-flow: row;
-    background-color: #377fd4;
+    background-color: #A3AFC7;
     margin: 0;
     padding: 0 10px;
 }
