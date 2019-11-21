@@ -1,18 +1,37 @@
-- var max = 18
-- var imgstr = 511
-div#gallery
-  - for(var n=1; n<=max; n++)
-    div
-      img(src= 'https://picsum.photos/600/600/?image='+(imgstr + n))
-      a(href='#lightbox-'+n)= (imgstr + n)
+<!-- MAIN (Center website) -->
+<div class="main">
 
-- for(var n=1; n<=max;n++)
-  div.lightbox(id="lightbox-"+n)
-    div.content
-      img(src='https://picsum.photos/1920/1080/?image='+(imgstr+n))
-      .title No. <b>#{imgstr+n}</b> from Picsum
-      a.close(href='#gallery')
+<h1>My Portfolio</h1>
+<hr>
 
+<h2>PORTFOLIO</h2>
+<p>Here is a collection of my work.</p>
 
-
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <h3>Social Video: Money in politics: understanding committee-industry relationships</h3>
+      <p>This is a social media style video that two of my classmates and I put together for one of our reporting classes. It is a data story that explores Missouri Rep. Vicky Hartzler’s campaign donations. </p>
+      <iframe width="560" height="315" src="https://videopress.com/embed/Trk0k4cm" frameborder="0" allowfullscreen></iframe>
+<script src="https://videopress.com/videopress-iframe.js"></script>
+      <h3>Video: Senior citizens In Missouri face lonely times as centers close</h3>
+      <p>Watch this enterprise piece my classmates and I made for one of our reporting classes. It explores the future of senior centers in mid-Missouri that lost funding.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <iframe width="560" height="315" src="https://videopress.com/embed/WR446jyi" frameborder="0" allowfullscreen></iframe>
+    <script src="https://videopress.com/videopress-iframe.js"></script>
+      <h3>Video: Lack of accessible transportation in Columbia inhibits mobility for people with disabilities</h3>
+      <p>This is another enterprise video my classmates and I reported and produced for our class. The para transit system in Columbia, MO cut back their hours, leaving limited transportation services for wheelchair users.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <iframe width="560" height="315" src="https://videopress.com/embed/jHenTwB6" frameborder="0" allowfullscreen></iframe>
+<script src="https://videopress.com/videopress-iframe.js"></script>
   
+
+<!-- END MAIN -->
+</div>
