@@ -251,14 +251,14 @@ body {
 
 nav ul li {
     display: block;
-    border-top: 1px ##A3AFC7 solid;
+    border-top: 1px #A3AFC7 solid;
 		list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 nav a {
-    color: ##A3AFC7;
+    color: #A3AFC7;
     display: block;
     text-decoration: none;
     padding: 20px 30px;
@@ -339,11 +339,11 @@ h1 {
 
 /* CSS for photos page*/
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: white;
   padding: 20px;
   font-family: Arial;
 }
@@ -356,6 +356,7 @@ body {
 
 h1 {
   font-size: 50px;
+	font-weight: bold;
   word-break: break-all;
 }
 
@@ -366,19 +367,21 @@ h1 {
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 10px;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
+	padding: 10px;
+	align-items: center;
 }
 
 /* Clear floats after rows */
 .row:after {
   content: "";
-  display: table;
+  display: inline-table;
   clear: both;
 }
 
@@ -396,8 +399,36 @@ h1 {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .column {
     width: 100%;
   }
+}
+
+
+/*resume styling*/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  flex: 0 0 100px;
+  background-color: #C14F4F;
+}
+main {
+  flex: 1;
+  display: flex;
+  background-color: #699EBD;
+}
+footer {
+  flex: 0 0 40px;
+  background-color: #C14F4F;
+}
+.left, .right {
+  flex: 0 2 150px;
+  background-color: #C28282;
+}
+.middle {
+  flex:1 1 300px;
 }
