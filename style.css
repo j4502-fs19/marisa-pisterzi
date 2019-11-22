@@ -356,7 +356,6 @@ body {
 
 h1 {
   font-size: 50px;
-	font-weight: bold;
   word-break: break-all;
 }
 
@@ -375,7 +374,6 @@ h1 {
   float: left;
   width: 25%;
 	padding: 10px;
-	align-items: center;
 }
 
 /* Clear floats after rows */
