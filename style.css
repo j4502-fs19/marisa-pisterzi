@@ -338,7 +338,7 @@ h1 {
 }
 
 
-/* CSS for photos page*/
+/* CSS for Portfolio page*/
 * {
   box-sizing: content-box;
 }
@@ -346,7 +346,7 @@ h1 {
 body {
   background-color: white;
   padding: 20px;
-  font-family: Arial;
+  font-family: "Times New Roman";
 }
 
 /* Center website */
@@ -434,7 +434,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
- background-color: #4CAF50;
+ background-color:#1A3E4C;
  color: white;
  padding: 12px 20px;
  border: none;
@@ -444,7 +444,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
- background-color: #45a049;
+ background-color: #347B98;
 }
 
 /* Add a background color and some padding around the form */
@@ -452,4 +452,11 @@ input[type=submit]:hover {
  border-radius: 5px;
  background-color: #f2f2f2;
  padding: 20px;
-} 
+}
+
+
+.aboutme {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
